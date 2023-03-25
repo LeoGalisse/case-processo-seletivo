@@ -26,12 +26,12 @@ export function Menu({ open }: MenuProps) {
         </Link>
       </li>
       <li>
-        <Link to="" onClick={() => handleScroll(1700)}>
+        <Link to="" onClick={() => handleScroll(1400)}>
           Programação
         </Link>
       </li>
       <li>
-        <Link to="" onClick={() => handleScroll(2400)}>
+        <Link to="" onClick={() => handleScroll(4000)}>
           Hackathon
         </Link>
       </li>
