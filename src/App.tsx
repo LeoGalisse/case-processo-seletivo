@@ -1,8 +1,8 @@
-import { Header } from './components/Header'
+import { SeComp } from './pages/SeComp'
 import { globalStyles } from './styles/global'
 
 globalStyles()
 
 export function App() {
-  return <Header />
+  return <SeComp />
 }
