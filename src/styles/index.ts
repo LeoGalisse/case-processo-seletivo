@@ -29,10 +29,10 @@ export const {
       '6xl': '4rem',
     },
 
-    fontWeight: {
-      normal: 400,
-      medium: 500,
-      semiBold: 600,
+    fontWeights: {
+      normal: '400',
+      medium: '500',
+      semiBold: '600',
     },
   },
 })
