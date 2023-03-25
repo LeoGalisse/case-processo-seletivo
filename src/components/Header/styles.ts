@@ -1,6 +1,11 @@
 import { styled } from '../../styles'
 
 export const HeaderContainer = styled('header', {
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  right: 0,
+  zIndex: 1,
   backgroundColor: 'rgba(30, 30, 30, 0.5)',
 })
 
