@@ -2,7 +2,6 @@ import { styled } from '../../../styles'
 
 export const HomeContainer = styled('div', {
   display: 'flex',
-  marginTop: -78,
   height: 832,
 
   background: 'linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #1E1E1E 77.4%)',
