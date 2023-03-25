@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { ListContainer } from './styles'
 
 interface MenuProps {
@@ -5,19 +6,34 @@ interface MenuProps {
 }
 
 export function Menu({ open }: MenuProps) {
+  const handleScroll = (amount) => {
+    window.scrollTo({
+      top: amount,
+      behavior: 'smooth',
+    })
+  }
+
   return (
     <ListContainer open={open}>
       <li>
-        <a href="">SeComp</a>
+        <Link to="" onClick={() => handleScroll(0)}>
+          SeComp
+        </Link>
       </li>
       <li>
-        <a href="">Descrição</a>
+        <Link to="" onClick={() => handleScroll(836)}>
+          Descrição
+        </Link>
       </li>
       <li>
-        <a href="">Programação</a>
+        <Link to="" onClick={() => handleScroll(1350)}>
+          Programação
+        </Link>
       </li>
       <li>
-        <a href="">Hackathon</a>
+        <Link to="" onClick={() => handleScroll(2400)}>
+          Hackathon
+        </Link>
       </li>
     </ListContainer>
   )
