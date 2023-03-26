@@ -3,7 +3,7 @@ import hackathonImg from '../../../assets/hackathonBackground.png'
 
 export function Hackathon() {
   return (
-    <div>
+    <div id="hackathon">
       <HackathonContainer>
         <img src={hackathonImg} alt="" />
         <HackathonContent>
