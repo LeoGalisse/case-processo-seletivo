@@ -4,7 +4,7 @@ export const BurguerContainer = styled('div', {
   width: '2rem',
   height: '2rem',
   position: 'fixed',
-  top: 15,
+  top: 22,
   right: 20,
   zIndex: '20',
   display: 'none',
@@ -13,7 +13,7 @@ export const BurguerContainer = styled('div', {
     open: {
       true: {
         div: {
-          backgroundColor: '#ccc',
+          backgroundColor: '$white',
           '&:nth-child(1)': {
             transform: 'rotate(45deg)',
             translate: '0.35rem 0.45rem',
@@ -29,7 +29,7 @@ export const BurguerContainer = styled('div', {
       },
       false: {
         div: {
-          backgroundColor: '#333',
+          backgroundColor: '$white',
           '&:nth-child(1)': {
             transform: 'rotate(0)',
           },
