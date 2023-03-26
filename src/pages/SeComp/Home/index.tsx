@@ -4,7 +4,7 @@ import { HomeContainer, HomeContent } from './styles'
 
 export function SeComp() {
   return (
-    <div>
+    <div id="home">
       <Header />
       <HomeContainer>
         <img src={heroImage} alt="" />

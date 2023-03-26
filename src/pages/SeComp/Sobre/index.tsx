@@ -2,7 +2,7 @@ import { SobreContainer, SobreContent, SobreTitle } from './styles'
 
 export function Sobre() {
   return (
-    <div id="#sobre">
+    <div id="sobre">
       <SobreContainer>
         <SobreTitle>
           <span>Fique à frente no jogo</span>
