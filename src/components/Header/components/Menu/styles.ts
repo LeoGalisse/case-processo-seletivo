@@ -56,7 +56,7 @@ export const ListContainer = styled('ul', {
     top: 0,
     right: 0,
     height: '100vh',
-    width: 300,
+    width: '53vw',
     paddingTop: '3.5rem',
     alignItems: 'center',
 
